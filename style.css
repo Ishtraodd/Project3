@@ -1,11 +1,33 @@
-h1{
-    color: limegreen;
+/* Global View and Desktop View */
+.container{
+    background-color: rgb(49, 156, 111);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-
+.col{
+    background-color: magenta;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
 /* Tablet View */
 @media (max-width: 768px){
-    h1{
-        color: darkorange;
+   
+    .col{
+        width: 45%;
+    }
+
+
+}
+
+/* Mobile View */
+@media (max-width: 400px){
+    .col{
+        width: 100%;
     }
 }
