@@ -1,6 +1,9 @@
 /* Global View and Desktop View */
+body{
+    font-family: 'Asap', sans-serif;
+}
+
 .container{
-    background-color: rgb(49, 156, 111);
     min-height: 500px;
     max-width: 1024px;
     margin: 0 auto;
@@ -12,8 +15,16 @@
 .col{
     /* background-color: magenta; 
     min-height: 200px; */
+    background-color: rgb(49, 156, 111);
     width: 30%;
     margin-bottom: 40px;
+}
+
+.col p{
+    color: white;
+    font-size: 0.825rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
 }
 
 .hide-desktop-only{
@@ -25,6 +36,9 @@
     height: auto;
 }
 
+.col p::first-line{
+    font-weight: bold;
+}
 
 /* Tablet View */
 @media (max-width: 768px){
