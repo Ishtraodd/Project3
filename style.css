@@ -1,6 +1,7 @@
 /* Global View and Desktop View */
 body{
     font-family: 'Asap', sans-serif;
+    background-color: #EBEBEB;
 }
 
 .container{
@@ -30,10 +31,11 @@ body{
 
 .mybutton{
     border: 1px solid white;
+    margin-left: 10px;
 }
 
 nav a{
-    padding: 10px 5px;
+    padding: 10px 25px;
     color: white;
     text-decoration: none;
 }
