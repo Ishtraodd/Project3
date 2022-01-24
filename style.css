@@ -104,6 +104,30 @@ nav a{
         display: block;
     }
 
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container{
+        position: relative;
+    }
+    .container{
+        padding: 40px;
+    }
+
+    nav a{
+        display: block;
+    }
+
+    .logo{
+        padding: 40px 0;
+    }
+
+    .mybutton{
+        margin-left: 0;
+    }
+
 }
 
 /* Mobile View */
@@ -115,4 +139,32 @@ nav a{
     .hide-mobile{
         display: none;
     }
+
+
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container{
+        position: relative;
+    }
+    .container{
+        padding: 40px;
+    }
+
+    nav a{
+        display: block;
+    }
+
+    .logo{
+        padding: 40px 0;
+    }
+
+    .mybutton{
+        margin-left: 0;
+    }
+
+    
+
 }
