@@ -11,9 +11,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 140px;
 }
 
 .header-container{
+    position: fixed;
+    width: 100%;
     background-color: rgb(82, 82, 82);
     min-height: 100px;
     margin-bottom: 40px;
@@ -83,6 +86,11 @@ nav a{
 
 .col p::first-line{
     font-weight: bold;
+}
+
+.highlight{
+    font-weight: 700;
+    
 }
 
 /* Tablet View */
